@@ -10,6 +10,6 @@ end
 def reverse_each_word(sentence)
  new_sent = sentence.split
   new_sent.reverse.each do |sent|
-    "#{sent.reverse}"
+    "#{sent}"
   end
 end 
