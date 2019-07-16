@@ -8,8 +8,10 @@ end
 =end
 
 def reverse_each_word(sentence)
+  new_array = []
  new_sent = sentence.split
   new_sent.each do |sent|
-    sent
+    new_array << sent.reverse
   end
+  new_array.join(" ") 
 end 
