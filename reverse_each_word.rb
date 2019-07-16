@@ -10,7 +10,7 @@ end
 def reverse_each_word(sentence)
   sent2 = []
  new_sent = sentence.split
-  new_sent.each do |sent|
+  new_sent.collect do |sent|
     sent2 << sent.reverse
   end
   sent2.join(" ") 
