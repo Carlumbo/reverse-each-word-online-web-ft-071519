@@ -5,4 +5,8 @@ last_sentence = new_array.reverse
 last_sentence.join(" ")
 end
 
-def 
+def reverse_each_word(sentence)
+  sentence.each do |sent|
+    "#{sent.reverse}"
+  end
+end 
